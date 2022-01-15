@@ -28,11 +28,15 @@ html {
 }
 
 .michi-table--block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 3);
     height: calc(100% / 3);
     border: 1px solid black;
+    font-size: 5rem;
 }
-.michi-table--block:hover {
+.michi-table--active:hover {
     cursor: pointer;
     background-color:lightblue;
 }

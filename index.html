@@ -12,24 +12,28 @@
         <h1 class="michi-title">MICHI</h1>
         <div class="michi-container">
             <div class="michi-table">
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
-                <div class="michi-table--block"></div>
+                <div class="michi-table--block michi-table--active" id="0"></div>
+                <div class="michi-table--block michi-table--active" id="1"></div>
+                <div class="michi-table--block michi-table--active" id="2"></div>
+                <div class="michi-table--block michi-table--active" id="3"></div>
+                <div class="michi-table--block michi-table--active" id="4"></div>
+                <div class="michi-table--block michi-table--active" id="5"></div>
+                <div class="michi-table--block michi-table--active" id="6"></div>
+                <div class="michi-table--block michi-table--active" id="7"></div>
+                <div class="michi-table--block michi-table--active" id="8"></div>
             </div>
             <div class="michi-control">
                 <div class="michi-control--player">
                     <p>P1 : X</p>
                     <p>P2 : O</p>
                 </div>
-                <p class="michi-control--info">Tu turno: </p>
+                <p class="michi-control--info" id="michi-info"></p>
             </div>
         </div>
+        <div>
+            <button onclick="ejecutarJuego()">Iniciar Juego</button>
+        </div>
     </main>
+    <script src="./js/michi.js"></script>
 </body>
 </html>
